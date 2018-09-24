@@ -1,0 +1,58 @@
+// Services Pages--------------
+
+
+.servicesContent{
+    padding:100px 0px;;
+    .innerServices{
+        .innerColn{
+            border:1px solid #aacfcb;
+            text-align: center;
+            padding:14px;
+            padding-bottom: 39px;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                cursor: default;
+                background-color: #25baa9;
+                color:white;
+                transition: all 0.3s ease-in-out;
+                p,span{
+                    color:white;
+                    transition: all 0.3s ease-in-out;
+
+                }
+                a{
+                    color:black;
+                    font-weight: bold !important;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+            span{
+                display: block;
+                color:#25baa9;
+                font-size: 4em;
+            }
+            h2{
+                font-size: 1.3em;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 600;
+            }
+            p{
+                font-family: 'Poppins', sans-serif;
+                margin-bottom: 0; 
+                padding: 15px 0px;
+                padding-bottom: 9px;
+                font-size: 0.9em;
+                color:#797979;
+                line-height: 25px;
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+                font-family: 'Poppins', sans-serif;
+                color:#386bb8;
+                font-size: 0.9em;
+                margin:5px 0px;
+            }
+        }
+    }
+}

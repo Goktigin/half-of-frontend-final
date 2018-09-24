@@ -1,0 +1,200 @@
+// HEADER starts
+header{
+    
+    
+    .headerTop{
+        background-color: #143856;
+        padding:12.5px 0;
+        position: relative;
+
+        .lineVertical{
+            width:1px;
+            height: 21px;
+            border:0.2px solid rgba(255, 255, 255, 0.384);
+            margin:2px 24px;
+        }
+        .rightMargin{
+            margin-right:5px;
+        }
+        .phonePart{
+            
+            :hover{
+                color:#337ab7;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+        .emailPart{
+            :hover{
+                color:#337ab7;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+        .headerIcon{
+            font-size: 1.1em;
+            color:white;
+            
+        }
+        .networks{
+            font-size: 1em;
+            color:white;
+            padding: 0px 7px;
+            cursor: pointer;
+        }
+        .language{
+            font-size: 1em;
+            font-weight: bold;
+            color:white;
+            cursor: pointer;
+
+        }
+
+        .dropDown{
+            position: absolute;
+            top:100%;
+            right: 9%;
+            border-top:3px solid #25baa9;
+            user-select: none;
+            display: none;
+            z-index: 120;
+            
+            ul{
+                list-style-type: none;
+                li{
+                    display: block;
+                    padding: 9px 118px 9px 15px;
+                    background-color: black;
+                    font-size: 1em;
+                    color:white;
+                    
+                    
+                    &:hover{
+                        background-color: #25baa9;
+                        cursor: pointer;
+                        transition: all 0.2s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    
+}
+.headerBottom{
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 99;
+    .leftHb{
+        padding:13px 0;
+        img{
+            max-width: 100%;
+        }
+    }
+
+    .lineVertical2{
+        width: 1px;
+        height: 22px;
+        border: 0.2px solid rgba(0, 0, 0, 0.384);
+        margin: 36px 10px 36px 36px;
+    }
+    .search{
+        padding:34px 10px;
+        font-size: 1.2em;
+        cursor: pointer;
+        .searchIcon{
+
+        }
+    }
+
+    .searchWindow{
+        display: none;
+        background-color: white;
+        position: absolute;
+        top:100%;
+        right:9.6%;
+        padding:24px 22px;
+        border-top:3px solid #25baa9;
+        z-index: 1;
+        i{
+            position: absolute;
+            top:41%;
+            right:11%;
+            font-size: 0.9em;
+            cursor: pointer;
+        }
+    }
+    .rightHb{
+        .activeListItem{
+            color:#d2b871 !important; 
+        }
+
+        ul.nav{
+            list-style-type: none;
+            
+            
+            .items{
+                float: left;
+                display: block;
+                padding: 34px 0px;
+                margin-left:36px;
+                font-size: 1.09em;
+                position: relative;
+                a{
+                    text-decoration: none;
+                    color:white;
+                }
+                &:hover{
+                    cursor: pointer;
+                    color:#d2b871;
+                    transition: all 0.3s ease-in-out;
+                    .innerNav{
+                        visibility: visible;
+                        opacity: 1;
+                        .innerItems:hover{
+                            background-color:#e9dcb8;
+                            color:black;
+                        }
+                    }
+                }
+
+                .innerNav{
+                    visibility: hidden;
+                    opacity: 0;
+                    list-style-type: none;
+                    position: absolute;
+                    top: 102%;
+                    left: 0%;
+                    transition: all 0.3s ease-in-out;
+                    .innerItems{
+                        display: block;
+                        padding: 15px 40px 15px 17px;
+                        font-size: 1em;
+                        background-color: #d2b871;
+                        color:white;
+                        width:218px;
+                        transition: all 0.3s ease-in-out;
+                        &:hover{
+                            .dblInnerNav{
+                                visibility: visible;
+                                opacity: 1;
+                            }
+                        }
+                        .dblInnerNav{
+                            visibility: hidden;
+                            opacity: 0;
+                            top:75%;
+                            left:100%;
+                            transition: all 0.3s ease-in-out;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
+// HEADER ends

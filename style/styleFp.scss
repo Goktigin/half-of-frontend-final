@@ -1,0 +1,233 @@
+@import "navbar";
+@import "footer";
+@import "services";
+@import "blog";
+@import "errorpage";
+@import "coomingsoon";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.clearFix{
+    clear:both;
+}
+.flt-L{
+    float: left;
+}
+.flt-R{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Section under header starts
+.underH{
+    background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.2)), url('../images/girl.jpeg');
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    padding:73px 0;
+    text-align: center;
+    
+    .innerSection{
+     color:white;
+
+     h1{
+         font-weight: bold;
+         font-size: 3.5em;
+     }
+     .traversing{
+         cursor: pointer;
+         font-size: 1.05em;
+         .distinguished{
+             color:#d2b871;
+             
+         }
+         i{
+            font-size: 0.9em;
+             
+        }
+     }
+    }
+}
+// Section under header ends
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Section of contents start
+.contents{
+    padding: 100px 0px 60px;;
+    .asideNav{
+        margin-bottom: 40px;
+        ul.miniNav{
+            li{
+                display: block;
+                padding: 14px 15px 14px 22px;
+                color:#242424;
+                border-left: 4px solid #d2d2d2;
+                cursor: pointer;
+                margin-bottom: 4px;
+                background-color:#f1f1f1;
+                font-size:1.1em;
+                font-weight: bold;
+                transition:all 0.3s ease-in-out;
+                &:hover{
+                    color:white;
+                    background-color: #d2b871;
+                    border-color: #d2b871;
+                }
+            }
+        }
+    }
+    
+   
+
+    .asideContact{
+        h2{
+            font-size: 1.4em;
+            font-weight: bold;
+            .underLine{
+                color:#d2b871;
+                font-size: 1em;
+                font-weight: normal;
+            }
+        }
+        .parent{
+            .child.bbn{border-bottom: none;}
+            .child{
+                border-top:none;
+                border-right: none;
+                border-left: none;
+                border-bottom: 1px solid #d3d3d3;
+                margin-bottom: 0px;
+                padding-right: 0px;
+                padding-left: 2.8rem;
+                padding-top: 0.95rem;
+                cursor: default;
+                position: relative;
+                .sidebarIcon{
+                    position: absolute;
+                    top:16%;
+                    left:2%;
+                    color:#7f7f7f;
+                    display: inline-block;
+                    font-size: 1.3em;
+                    padding:0px 15px 5px 2px;
+                }
+                p{
+                    display: inline-block;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    
+    .mainContent{
+        img{
+            width: 100%;
+            height:390px;
+        }
+        .innerCont{
+            margin-top:36px;
+            h3{
+                font-size: 1.8em;
+                font-weight: bold;
+                padding-bottom: 10px;
+            }
+            p{
+                color:#797979;
+                font-size: 1.03em;
+                line-height: 27px;
+            }
+        }
+        .innerContMiddle{
+            margin-top:36px;
+            .imgContainer{
+                margin-bottom: 12px;
+                img{
+                    width: 100%;
+                    height: 220px;
+                }
+            }
+            .textContainer{
+
+                h3{
+                    font-size: 1.8em;
+                    font-weight: bold;
+                    padding-bottom: 10px;
+                }
+                p{
+                    color:#797979;
+                    font-size: 1.03em;
+                    line-height: 27px;
+                    .checkIcon{
+                        color: #d2b871;
+                        display:inline-block;
+                        padding-right: 10px;
+                    }
+                } 
+            }
+        }
+        .innerContEnd{
+            margin-top:36px;
+            h3{
+                font-size: 1.6em;
+                font-weight: bold;
+                padding-bottom: 10px;
+            }
+            p{
+                color:#797979;
+                font-size: 1.03em;
+                line-height: 27px;
+            }
+        }
+    }
+}
+// Section of contents ends
+
+
+
+
