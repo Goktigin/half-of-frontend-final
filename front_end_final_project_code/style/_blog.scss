@@ -1,0 +1,95 @@
+.blogContents{
+    padding:100px 0px;
+    .innerBlog{
+        .innerBlogColn{
+            .imgContainer{
+                
+                overflow: hidden;
+                .image{
+                    position: relative;
+                    transition: all 0.5s ease-in-out;
+                    &:hover{
+                        transform: scale(1.2,1.2);
+                        transition: all 0.5s ease-in-out;
+                        .overlay{
+                            opacity: 0.5;
+                            
+                        }
+                    }
+                    .overlay{
+                        position: absolute;
+                        top:0;
+                        left: 0;
+                        background-color: #000000;
+                        opacity: 0;
+                        width:100%;
+                        height: 360px;
+                        transition: all 0.5s ease-in-out;
+                    }
+                    img{
+                        width:100%;
+                        max-height: 371px;
+                        
+                    }
+                }
+                
+            }
+            .lowerContent{
+                .upperBox{
+                    .postedDate{
+                        font-family:'Poppins', sans-serif;
+                        color:#d2b871;
+                        font-size:1.1em;
+                        font-weight: 600;
+                        padding:20px 0px;
+                    }
+                    .postMeta{
+                        list-style-type: none;
+                        padding-bottom: 20px;
+                        border-bottom: 1px solid #e7e1e1f2;
+                        li{
+                            float: left;
+                            font-family:'Poppins', sans-serif;
+                            font-weight: 500;
+                            color: #b8b8b8;
+                        }
+                    }
+                }
+
+                .lowerBox{
+                    padding-top:7px;
+                    h3{
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 1.5em;
+                        font-weight: 600;
+                        color: #242424;
+                        margin-bottom: 18px;
+                    }
+                    p{
+                        color: #797979;
+                        font-size: 17px;
+                        line-height: 1.8em;
+                        margin-bottom: 35px;
+                    }
+                    a{
+                        font-size: 15px;
+                        padding: 14px 32px 14px;
+                        line-height: 24px;
+                        background-color: #d2b871;
+                        color:white;
+                        border:2px solid transparent;
+                        border-radius: 20px;
+                        font-weight: bold;
+                        text-decoration: none;
+                        transition:all 0.3s ease-in-out;
+                        &:hover{
+                            background-color: white;
+                            color:#d2b871;
+                            border-color: #d2b871;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
